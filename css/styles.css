@@ -1,0 +1,168 @@
+body {
+  background-color: #FF4C68;
+  font-family: "Montserrat";
+  color: white;
+}
+
+.container-fluid {
+  padding: 3% 15% 10%;
+}
+
+h1 {
+  font-family: "Ubuntu";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: black;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 2;
+}
+
+h4 {
+  font-family: "Montserrat";
+  color: black;
+  font-weight: bold;
+}
+p {
+  color: #8F8F8F;
+}
+
+/**Navigation Bar**/
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+/***** Download Buttons***/
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/*****Title for Image***/
+.title-img {
+  width: 25%;
+  transform: rotate(25deg);
+  position: absolute;
+
+}
+
+/****Features Section****/
+.features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/*****Testimonials*****/
+.testimonials {
+
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonial-img {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+.press {
+  background-color :#ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 15px;
+}
+/****pricing section****/
+.pricing {
+  background-color: white;
+  text-align: center;
+  padding: 100px;
+
+}
+
+.pricing-column {
+  padding: 3% 2%;
+
+}
+
+/*****CTA****/
+.cta {
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  text-align: center;
+
+}
+
+.cta-heading {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+  color: white;
+}
+
+
+/*****FOOTER****/
+.footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+.social-icon {
+  margin: 20px 10px;
+}
+
+  @media (max-width: 1028px ) {
+  .title-img {
+    position: static;
+    width: 50%;
+    transform:rotate(0);
+  }
+.title {
+  text-align: center;
+}
+}
