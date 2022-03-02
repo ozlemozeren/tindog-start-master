@@ -1,5 +1,5 @@
 TinDog Starting Files
-[Click Me](https://ozlemozeren.github.io/tindog-start-master/)
+Click to see the page.[Click Me](https://ozlemozeren.github.io/tindog-start-master/)
 
 ## Topics
 
